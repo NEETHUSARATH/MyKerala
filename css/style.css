@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel {
+ 
+    width: 100%;
+    overflow:hidden;
+}
+.carousel .carousel-inner {
+    height:100%;    
+}
+/*Navbar*/
+
+
+#logo{
+    margin-left: 5%;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+
+
+
+nav .navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon {
+  color:#fff;
+}
+
+
+nav .navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon {
+  color: #4f4f4f;
+}
+
+
+nav .navbar-scrolled {
+  background-color:#4f4f4f;
+}
+
+
+nav .navbar.navbar-scroll.navbar-scrolled {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+
+ul.dropdown-menu{
+    margin: 0px;
+    padding: 0px;
+    width: 1000px !important;
+    
+}
+ul.dropdown-menu .card{
+    padding: 4px;
+    border: 2px solid whitesmoke;
+ 
+
+}
+ul.dropdown-menu .card h5{
+    text-align: center;
+
+}
+
+
+nav .dropdown2{
+    margin-right: 100% !important;
+    margin-left: 0;
+    color: white;
+}
+
+
+
+
+ nav  .login{
+    margin-right: 15%;
+   background-color: white;
+   
+ }   
+
+
+
+/*container*/
+ .text h2{
+    margin-top: 4%;
+	font-size: x-large;
+	line-height: 1.1;
+    margin-left: 30%;
+    color: green;
+}
+.row-items{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+	grid-gap: 2rem;
+	align-items: center;
+	text-align: center;
+	margin-top: 5rem;
+}
+.container-box{
+	background: var(--bg-color);
+	border: 1px solid #f0eded;
+	padding: 50px 10px;
+	border-radius: 4px;
+	transition: all 1s ease 0s;
+	cursor: pointer;
+}
+.container-img img{
+	height: 85px;
+	width: 85px;
+	padding: 15px;
+	background: var(--bg-color);
+	box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+	border-radius: 4px;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+.container-box h4{
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 8px;
+}
+.container-box p{
+	font-size: 15px;
+	color: var(--second-color);
+}
+.container-box:hover{
+	box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
+	border: 1px solid transparent;
+	transform: translateY(-3px);
+}
+
+
+/*footer*/
