@@ -70,7 +70,7 @@ function validateForm() {
           elem.classList.add("input-2");
           elem.classList.remove("input-1");
   } else {
-      var regex = /^[1-9]\d{9}$/;
+      var regex =  /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
       if(regex.test(mobile) === false) {
           printError("mobileErr", "Please enter a valid 10 digit mobile number");
           var elem = document.getElementById("mobile");
